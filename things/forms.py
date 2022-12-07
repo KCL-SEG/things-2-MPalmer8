@@ -2,7 +2,7 @@
 
 from django import forms
 
-class ThingsForm(forms.Modelform):
+class ThingsForm(forms.ModelForm):
   class Meta:
     model = Thing
     fields = ['name',]
